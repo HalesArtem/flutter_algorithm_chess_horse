@@ -140,7 +140,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/horse.png
     - assets/index.html
 
 

@@ -24,12 +24,10 @@
 	justify-content: center;
 }
 .current{
-
-	background: url(&#9822) center no-repeat;
+    	color: transparent;
+	background: url(https://c7.hotpng.com/preview/265/808/843/horse-computer-icons-knight-chess-clip-art-horse.jpg) center no-repeat;
 	background-size: cover;
 }
-
-
     </style>
 </head>
 <body>
@@ -118,7 +116,6 @@ function whatToDoNext(){
 	}
 	return nextArr;
 }
-
 	nextArr = whatToDoNext();
 
 
@@ -141,19 +138,14 @@ vars[index].innerHTML = step;
 currentX = vars[index].getAttribute('postX');
 currentY = vars[index].getAttribute('postY');
 
-
-
-
 if (step == 64) {
 	clearInterval(interval);
 }
 
  }
-
 let interval = setInterval(() =>{
 	nextStep();
 }, 200);
-
 </script>
 </body>
 </html>
